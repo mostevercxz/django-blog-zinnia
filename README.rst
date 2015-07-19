@@ -48,3 +48,12 @@ Search google and record some founds.
  removetags(html, 'strong')
  removetags(html, 'strong p')
  {{ template | removetags:"a span" | safe }}
+ 
+ * 1.6 django.contrib.sites.models import Site(From https://docs.djangoproject.com/en/1.8/ref/contrib/sites/)
+ 
+ Associating content with multiple sites
+ The better solution is simple: Both sites use the same article database, and an article is associated with one or more sites
+ 
+ * 1.7 django.template.defaultfilters import slugify
+ 
+ Automatically create a unique slug for a model.
