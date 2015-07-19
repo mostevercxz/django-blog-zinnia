@@ -56,4 +56,4 @@ Search google and record some founds.
  
  * 1.7 django.template.defaultfilters import slugify
  
- Automatically create a unique slug for a model.
+ Keep the string safe. if allow_unicode=False, Rmove the non ascii characters in a string.
