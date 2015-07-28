@@ -1,4 +1,5 @@
 # coding:utf-8
+# web address : http://pymotw.com/2/socket/tcp.html
 
 from __future__ import print_function
 import socket
